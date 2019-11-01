@@ -6,20 +6,8 @@
         xmlns:local="clr-namespace:Sudoku_WPF"
         mc:Ignorable="d"
         Title="Sudoku" Height="800" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-
-        <Grid Grid.Row="0" Grid.Column="0">
+    <Border BorderBrush="black" BorderThickness="3" Padding="5" CornerRadius="10" Background="AntiqueWhite">
+        <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -31,118 +19,231 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+
+            <Border CornerRadius="10" Grid.Row="0" Grid.Column="0">
+                <Grid Grid.Row="0" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="0" Grid.Column="1">
+                <Grid Grid.Row="0" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="0" Grid.Column="2">
+                <Grid Grid.Row="0" Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="1" Grid.Column="0">
+                <Grid Grid.Row="1" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="1" Grid.Column="1">
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="1" Grid.Column="2">
+                <Grid Grid.Row="1" Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="2" Grid.Column="0">
+                <Grid Grid.Row="2" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="2" Grid.Column="1">
+                <Grid Grid.Row="2" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke"/>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Grid.Row="2" Grid.Column="2">
+                <Grid Grid.Row="2" Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                    <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue"/>
+                </Grid>
+            </Border>
         </Grid>
-
-        <Grid Grid.Row="0" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="0" Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="1" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="1" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="1" Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="2" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="2" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
-        <Grid Grid.Row="2" Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-    </Grid>
+    </Border>
 </Window>
