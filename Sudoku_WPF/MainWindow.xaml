@@ -35,31 +35,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_1" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_1" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_2" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_2" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_3" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_3" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_10" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_10" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_11" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_11" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_12" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_12" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_19" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_19" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_20" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_20" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_21" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_21" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -78,31 +78,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_4" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_4" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_5" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_5" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_6" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_6" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_13" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_13" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_14" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_14" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_15" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_15" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_22" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_22" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_23" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_23" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_24" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_24" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -121,31 +121,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_7" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_7" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_8" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_8" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_9" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_9" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_16" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_16" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_17" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_17" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_18" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_18" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_25" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_25" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_26" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_26" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_27" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_27" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -164,31 +164,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_28" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_28" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_29" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_29" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_30" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_30" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_37" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_37" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_38" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_38" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_39" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_39" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_46" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_46" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_47" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_47" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_48" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_48" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -207,31 +207,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_31" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_31" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_32" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_32" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_33" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_33" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_40" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_40" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_41" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_41" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_42" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_42" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_49" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_49" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_50" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_50" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_51" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_51" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -250,31 +250,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_34" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_34" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_35" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_35" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_36" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_36" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_43" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_43" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_44" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_44" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_45" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_45" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_52" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_52" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_53" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_53" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_54" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_54" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -293,31 +293,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_55" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_55" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_56" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_56" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_57" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_57" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_64" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_64" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_65" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_65" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_66" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_66" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_73" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_73" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_74" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_74" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_75" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_75" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -336,31 +336,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_58" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_58" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_59" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_59" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_60" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_60" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_67" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_67" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_68" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_68" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_69" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_69" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_76" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_76" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_77" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_77" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="WhiteSmoke">
-                        <TextBlock x:Name="tb_78" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_78" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="WhiteSmoke" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
@@ -379,31 +379,31 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_61" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_61" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_62" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_62" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="0" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_63" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_63" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_70" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_70" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_71" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_71" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="1" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_72" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_72" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="0" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_79" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_79" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="1" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_80" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_80" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                     <Border BorderBrush="black" BorderThickness="2"  Grid.Row="2" Grid.Column="2" CornerRadius="10" Margin="3" Background="LightBlue">
-                        <TextBlock x:Name="tb_81" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        <TextBox x:Name="tb_81" FontSize="40" TextAlignment="Center" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="LightBlue" BorderThickness="0" Width="50"/>
                     </Border>
                 </Grid>
             </Border>
