@@ -42,14 +42,7 @@ namespace Sudoku
             Sudoku.Solve(0, 0, 0, OutputField, ref counter, ref solved, 1);
             OutputField = solution[0];
 
-            if (fieldsLeft >= 81)
-            {
-                n = 0;
-            }
-            else
-            {
-                n = 81 - fieldsLeft;
-            }
+            n = 81 - fieldsLeft;
 
             Array.Copy(OutputField, tmp, OutputField.Length);
 

@@ -19,7 +19,6 @@ namespace Sudoku
             }
 
             int[,] workerfield = new int[9, 9];
-            bool chkSkip = false;
 
             Array.Copy(field, workerfield, field.Length); // kopiert Array myArray in workerfield
 
@@ -44,10 +43,9 @@ namespace Sudoku
                         for (int val = 1; val <= 9; val++)
                         {
                             // prüfen ob Zahl an jeweiliger Stelle möglich ist
-                            if (chkSkip || chkMove(y, x, val, workerfield))
+                            if (chkMove(y, x, val, workerfield))
                             {
                                 // wenn true => rekursiver Funktionsaufruf, aktuelles Spielfeld wird übergeben
-                                chkSkip = false;
                                 Solve(val, x, y, workerfield, ref counter, ref solved, mode);
                             }
                         }
