@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sudoku"
         mc:Ignorable="d"
-        Title="Sudoku" Height="1000" Width="900">
+        Title="Sudoku" Height="730" Width="730">
     <Border BorderBrush="black" BorderThickness="3" Padding="5" CornerRadius="10" Background="AntiqueWhite">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="280"/>
-                <RowDefinition Height="280"/>
-                <RowDefinition Height="280"/>
-                <RowDefinition Height="100"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -407,7 +407,7 @@
                     </Border>
                 </Grid>
             </Border>
-            <Button x:Name="bt_newGame"  Grid.Row="3" Grid.Column="0" FontSize="30" FontWeight="Bold" Margin="30, 20, 30, 20" Click="bt_newGame_Click">New Game</Button>
+            <Button x:Name="bt_newGame"  Grid.Row="3" Grid.Column="0" FontSize="30" FontWeight="Bold" Margin="30" Click="bt_newGame_Click" VerticalAlignment="Center" Padding="5">New Game</Button>
             <Grid Grid.Row="3" Grid.Column="1">
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -423,7 +423,7 @@
                 <RadioButton x:Name="rb_easy" GroupName="level" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
                     <RadioButton.RenderTransform>
                         <TransformGroup>
-                            <ScaleTransform ScaleY="1.5" ScaleX="1.5"/>
+                            <ScaleTransform ScaleY="1.2" ScaleX="1.2"/>
                             <SkewTransform/>
                             <RotateTransform/>
                             <TranslateTransform/>
@@ -433,7 +433,7 @@
                 <RadioButton x:Name="rb_medium" GroupName="level" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="True" RenderTransformOrigin="0.5,0.5">
                     <RadioButton.RenderTransform>
                         <TransformGroup>
-                            <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                            <ScaleTransform ScaleX="1.2" ScaleY="1.2"/>
                             <SkewTransform/>
                             <RotateTransform/>
                             <TranslateTransform/>
@@ -443,7 +443,7 @@
                 <RadioButton x:Name="rb_hard" GroupName="level" Grid.Row="1" Grid.Column="2" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
                     <RadioButton.RenderTransform>
                         <TransformGroup>
-                            <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                            <ScaleTransform ScaleX="1.2" ScaleY="1.2"/>
                             <SkewTransform/>
                             <RotateTransform/>
                             <TranslateTransform/>
@@ -451,7 +451,7 @@
                     </RadioButton.RenderTransform> hard
                 </RadioButton>
             </Grid>
-            <Button x:Name="bt_check"  Grid.Row="3" Grid.Column="3" FontSize="30" FontWeight="Bold" Margin="30, 25, 30, 18">Check</Button>
+            <Button x:Name="bt_check"  Grid.Row="3" Grid.Column="3" FontSize="30" FontWeight="Bold" Margin="30" VerticalAlignment="Center" Padding="5">Check</Button>
         </Grid>
     </Border>
 </Window>
