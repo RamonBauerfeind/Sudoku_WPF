@@ -49,7 +49,27 @@ namespace Sudoku
         public void NewGame()
         {
             int[,] input;
-            input = Sudoku.Create(50); // Schwierigkeitsgrad hier festlegen
+            int level;
+
+            // Level
+            if(rb_easy.IsChecked == true)
+            {
+                level = 45;
+            }
+            else if(rb_medium.IsChecked == true)
+            {
+                level = 30;
+            }
+            else if (rb_hard.IsChecked == true)
+            {
+                level = 0;
+            }
+            else
+            {
+                level = 30;
+            }
+
+            input = Sudoku.Create(level);
             int counter = 0;
             int solved = 0;
             Sudoku.Solve(0, 0, 0, input, ref counter, ref solved, 0);

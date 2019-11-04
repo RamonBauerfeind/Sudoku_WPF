@@ -407,7 +407,51 @@
                     </Border>
                 </Grid>
             </Border>
-            <Button x:Name="bt_newGame"  Grid.Row="3" Grid.Column="0" Height="80" Width="200" FontSize="30" FontWeight="Bold" Margin="10" Click="bt_newGame_Click">New Game</Button>
+            <Button x:Name="bt_newGame"  Grid.Row="3" Grid.Column="0" FontSize="30" FontWeight="Bold" Margin="30, 20, 30, 20" Click="bt_newGame_Click">New Game</Button>
+            <Grid Grid.Row="3" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" FontSize="30" FontWeight="Bold" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center">Select Level :</Label>
+                <RadioButton x:Name="rb_easy" GroupName="level" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                    <RadioButton.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="1.5" ScaleX="1.5"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </RadioButton.RenderTransform> easy
+                </RadioButton>
+                <RadioButton x:Name="rb_medium" GroupName="level" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="True" RenderTransformOrigin="0.5,0.5">
+                    <RadioButton.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </RadioButton.RenderTransform> medium
+                </RadioButton>
+                <RadioButton x:Name="rb_hard" GroupName="level" Grid.Row="1" Grid.Column="2" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                    <RadioButton.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </RadioButton.RenderTransform> hard
+                </RadioButton>
+            </Grid>
+            <Button x:Name="bt_check"  Grid.Row="3" Grid.Column="3" FontSize="30" FontWeight="Bold" Margin="30, 25, 30, 18">Check</Button>
         </Grid>
     </Border>
 </Window>
