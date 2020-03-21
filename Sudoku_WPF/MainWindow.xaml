@@ -451,7 +451,7 @@
                     </RadioButton.RenderTransform> hard
                 </RadioButton>
             </Grid>
-            <Button x:Name="bt_check"  Grid.Row="3" Grid.Column="3" FontSize="30" FontWeight="Bold" Margin="30" VerticalAlignment="Center" Padding="5">Check</Button>
+            <Button x:Name="bt_check"  Grid.Row="3" Grid.Column="3" FontSize="30" FontWeight="Bold" Margin="30" Click="bt_check_Click" VerticalAlignment="Center" Padding="5">Check</Button>
         </Grid>
     </Border>
 </Window>
