@@ -68,7 +68,7 @@ namespace Sudoku
                 level = 30;
             }
 
-            input = Sudoku.Create(level);
+            input = Sudoku.Create(70);
             int counter = 0;
             int solved = 0;
             Sudoku.Solve(0, 0, 0, input, ref counter, ref solved, 0);
@@ -107,7 +107,6 @@ namespace Sudoku
 
         public void CheckGame()
         {
-            string[,] Value = new string[9, 9];
             int[,] Result = new int[9, 9];
 
             List<TextBox> TextBox = new List<TextBox>();
@@ -123,16 +122,45 @@ namespace Sudoku
             TextBox.Add(tb_73); TextBox.Add(tb_74); TextBox.Add(tb_75); TextBox.Add(tb_76); TextBox.Add(tb_77); TextBox.Add(tb_78); TextBox.Add(tb_79); TextBox.Add(tb_80); TextBox.Add(tb_81);
 
             int i = 0;
+            int j = 0;
 
-            for(int y = 0; y < 9; y++)
+            for (int y = 0; y < 9; y++)
             {
                 for (int x = 0; x < 9; x++)
                 {
-                    Value[y, x] = Convert.ToString(TextBox[i]);
+                    //wandelt den Wert der TextBox in int um, wenn Feld leer -> 0
+                    int.TryParse(TextBox[i].Text, out Result[x, y]);
                     i++;
                 }
             }
-            MessageBox.Show(Value[1, 3]);
+
+            for (int y = 0; y < 9; y++)
+            {
+                for (int x = 0; x < 9; x++)
+                {
+                    if (Result[x, y] == 0)
+                    {
+                        TextBox[j].Background = Brushes.Red;
+                        j++;
+                    }
+                    else if(Result[x, y] > 9)
+                    {
+                        TextBox[j].Background = Brushes.Red;
+                        j++;
+                    }
+                    //Fehler in diesem Block!!!
+                    else if (Sudoku.chkMove(x, y, Result[x, y], Result))
+                    {
+                        TextBox[j].Background = Brushes.Red;
+                        j++;
+                    }
+                    else
+                    {
+                        TextBox[j].Background = Brushes.Green;
+                        j++;
+                    }
+                }
+            }
         }
 
 
