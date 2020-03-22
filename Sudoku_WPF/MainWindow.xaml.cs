@@ -140,8 +140,8 @@ namespace Sudoku
                 {
                     TextBox[j].Background = Brushes.Green;
 
-                    //Mistake in function chkMove???
-                    if (Sudoku.chkMove(y, x, Result[y, x], Result) == true)
+                    //Find mistake here!!!!!
+                    if (Sudoku.chkResult(y, x, Result[y, x], Result))
                     {
                         //MessageBox.Show("foo");
                         TextBox[j].Background = Brushes.Red;

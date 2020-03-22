@@ -3,7 +3,7 @@
     static partial class Sudoku
     {
         // prüft Werte in Zeile auf unique
-        public static bool chkZeile(int zeile, int wert, int[,] arr)
+        static bool chkZeile(int zeile, int wert, int[,] arr)
         {
             for (int i = 0; i < 9; i++)
             {
@@ -16,7 +16,7 @@
         }
 
         // prüft Werte in Spalte auf unique
-        public static bool chkSpalte(int spalte, int wert, int[,] arr)
+        static bool chkSpalte(int spalte, int wert, int[,] arr)
         {
             for (int i = 0; i < 9; i++)
             {
@@ -29,7 +29,7 @@
         }
 
         // prüft Werte in Block auf unique
-        public static bool chkBlock(int zeile, int spalte, int wert, int[,] arr)
+        static bool chkBlock(int zeile, int spalte, int wert, int[,] arr)
         {
             for (int i = 0; i < 3; i++)
             {
@@ -53,7 +53,7 @@
         }
 
         // Zusammenfassung von chkZeile, chk Spalte, chkBlock
-        public static bool chkMove(int zeile, int spalte, int wert, int[,] arr)
+        static bool chkMove(int zeile, int spalte, int wert, int[,] arr)
         {
             if (!chkZeile(zeile, wert, arr))
             {
@@ -70,6 +70,27 @@
                 return false;
             }
             return true;
+        }
+
+        //Find mistake here!!!!!
+        public static bool chkResult(int zeile, int spalte, int wert, int[,] arr)
+        {
+            for (int y = 0; y < 9; y++)
+            {
+                for (int x = 0; x < 9; x++)
+                {
+                    if (arr[y, x] == 0)
+                    {
+                        return false;
+                    }
+                    // prüfen ob Zahl an jeweiliger Stelle möglich ist
+                    if (chkMove(zeile, spalte, wert, arr))
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
     }
 }
