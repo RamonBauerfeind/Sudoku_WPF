@@ -129,7 +129,7 @@ namespace Sudoku
                 for (int x = 0; x < 9; x++)
                 {
                     //wandelt den Wert der TextBox in int um, wenn Feld leer -> 0
-                    int.TryParse(TextBox[i].Text, out Result[x, y]);
+                    int.TryParse(TextBox[i].Text, out Result[y, x]);
                     i++;
                 }
             }
@@ -138,27 +138,23 @@ namespace Sudoku
             {
                 for (int x = 0; x < 9; x++)
                 {
-                    if (Result[x, y] == 0)
+                    TextBox[j].Background = Brushes.Green;
+
+                    //Mistake in function chkMove???
+                    if (Sudoku.chkMove(y, x, Result[y, x], Result) == true)
+                    {
+                        //MessageBox.Show("foo");
+                        TextBox[j].Background = Brushes.Red;
+                    }
+                    if (Result[y, x] == 0)
                     {
                         TextBox[j].Background = Brushes.Red;
-                        j++;
                     }
-                    else if(Result[x, y] > 9)
+                    if (Result[y, x] > 9 || Result[y, x] <= 0)
                     {
                         TextBox[j].Background = Brushes.Red;
-                        j++;
                     }
-                    //Fehler in diesem Block!!!
-                    else if (Sudoku.chkMove(x, y, Result[x, y], Result))
-                    {
-                        TextBox[j].Background = Brushes.Red;
-                        j++;
-                    }
-                    else
-                    {
-                        TextBox[j].Background = Brushes.Green;
-                        j++;
-                    }
+                    j++;
                 }
             }
         }

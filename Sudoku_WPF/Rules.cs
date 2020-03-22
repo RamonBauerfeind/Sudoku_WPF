@@ -42,7 +42,6 @@
                     if (j == zeile)
                     {
                         continue;
-
                     }
                     if (arr[spalte - (spalte % 3) + i, zeile - (zeile % 3) + j] == wert)
                     {
