@@ -1,22 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Sudoku
 {
     public partial class MainWindow : Window
-    {
+    { 
+        int[][,] input = new int[2][,];
         public MainWindow()
         {
             InitializeComponent();
@@ -32,7 +24,6 @@ namespace Sudoku
             TextBox.Add(tb_55); TextBox.Add(tb_56); TextBox.Add(tb_57); TextBox.Add(tb_58); TextBox.Add(tb_59); TextBox.Add(tb_60); TextBox.Add(tb_61); TextBox.Add(tb_62); TextBox.Add(tb_63);
             TextBox.Add(tb_64); TextBox.Add(tb_65); TextBox.Add(tb_66); TextBox.Add(tb_67); TextBox.Add(tb_68); TextBox.Add(tb_69); TextBox.Add(tb_70); TextBox.Add(tb_71); TextBox.Add(tb_72);
             TextBox.Add(tb_73); TextBox.Add(tb_74); TextBox.Add(tb_75); TextBox.Add(tb_76); TextBox.Add(tb_77); TextBox.Add(tb_78); TextBox.Add(tb_79); TextBox.Add(tb_80); TextBox.Add(tb_81);
-            
 
             int k = 0;
             for (int i = 0; i < 9; i++)
@@ -47,13 +38,12 @@ namespace Sudoku
 
         public void NewGame()
         {
-            int[,] input;
             int level;
 
             // Level
             if(rb_easy.IsChecked == true)
             {
-                level = 45;
+                level = 55;
             }
             else if(rb_medium.IsChecked == true)
             {
@@ -68,10 +58,10 @@ namespace Sudoku
                 level = 30;
             }
 
-            input = Sudoku.Create(70);
+            input = Sudoku.Create(level);
             int counter = 0;
             int solved = 0;
-            Sudoku.Solve(0, 0, 0, input, ref counter, ref solved, 0);
+            Sudoku.Solve(0, 0, 0, input[0], ref counter, ref solved, 0);
 
             List<TextBox> TextBox = new List<TextBox>();
             
@@ -84,21 +74,22 @@ namespace Sudoku
             TextBox.Add(tb_55); TextBox.Add(tb_56); TextBox.Add(tb_57); TextBox.Add(tb_58); TextBox.Add(tb_59); TextBox.Add(tb_60); TextBox.Add(tb_61); TextBox.Add(tb_62); TextBox.Add(tb_63);
             TextBox.Add(tb_64); TextBox.Add(tb_65); TextBox.Add(tb_66); TextBox.Add(tb_67); TextBox.Add(tb_68); TextBox.Add(tb_69); TextBox.Add(tb_70); TextBox.Add(tb_71); TextBox.Add(tb_72);
             TextBox.Add(tb_73); TextBox.Add(tb_74); TextBox.Add(tb_75); TextBox.Add(tb_76); TextBox.Add(tb_77); TextBox.Add(tb_78); TextBox.Add(tb_79); TextBox.Add(tb_80); TextBox.Add(tb_81);
-            
 
             int k = 0;
             for (int i = 0; i < 9; i++)
             {
                 for (int j = 0; j < 9; j++)
                 {
-                    if (input[i, j] == 0)
+                    if (input[0][i, j] == 0)
                     {
                         TextBox[k].Text = Convert.ToString("");
+                        TextBox[k].Background = Brushes.Transparent;
                         k++;
                     }
                     else
                     {
-                        TextBox[k].Text = Convert.ToString(input[i, j]);
+                        TextBox[k].Text = Convert.ToString(input[0][i, j]);
+                        TextBox[k].Background = Brushes.Transparent;
                         k++;
                     }
                 }
@@ -121,44 +112,41 @@ namespace Sudoku
             TextBox.Add(tb_64); TextBox.Add(tb_65); TextBox.Add(tb_66); TextBox.Add(tb_67); TextBox.Add(tb_68); TextBox.Add(tb_69); TextBox.Add(tb_70); TextBox.Add(tb_71); TextBox.Add(tb_72);
             TextBox.Add(tb_73); TextBox.Add(tb_74); TextBox.Add(tb_75); TextBox.Add(tb_76); TextBox.Add(tb_77); TextBox.Add(tb_78); TextBox.Add(tb_79); TextBox.Add(tb_80); TextBox.Add(tb_81);
 
-            int i = 0;
-            int j = 0;
-
+            int k = 0;
+            int z = 0;
             for (int y = 0; y < 9; y++)
             {
                 for (int x = 0; x < 9; x++)
                 {
                     //wandelt den Wert der TextBox in int um, wenn Feld leer -> 0
-                    int.TryParse(TextBox[i].Text, out Result[y, x]);
-                    i++;
+                    int.TryParse(TextBox[k].Text, out Result[x, y]);
+                    k++;
                 }
             }
 
-            for (int y = 0; y < 9; y++)
+            int count = 0;
+            for (int i = 0; i < 9; i++)
             {
-                for (int x = 0; x < 9; x++)
+                for (int j = 0; j < 9; j++)
                 {
-                    TextBox[j].Background = Brushes.Green;
-
-                    //Find mistake here!!!!!
-                    if (Sudoku.chkResult(y, x, Result[y, x], Result))
+                    if (Result[j, i] == input[1][i, j])
                     {
-                        //MessageBox.Show("foo");
-                        TextBox[j].Background = Brushes.Red;
+                        TextBox[z].Background = Brushes.Green;
+                        count++;
                     }
-                    if (Result[y, x] == 0)
+                    else
                     {
-                        TextBox[j].Background = Brushes.Red;
+                        TextBox[z].Background = Brushes.Red;
                     }
-                    if (Result[y, x] > 9 || Result[y, x] <= 0)
-                    {
-                        TextBox[j].Background = Brushes.Red;
-                    }
-                    j++;
+                    z++;
                 }
+            }
+
+            if(count == 81)
+            {
+                MessageBox.Show("Herzlichen Glückwunsch!!! Sie haben das Spiel erfolgreich beendet!!!");
             }
         }
-
 
         public void bt_newGame_Click(object sender, RoutedEventArgs e)
         {

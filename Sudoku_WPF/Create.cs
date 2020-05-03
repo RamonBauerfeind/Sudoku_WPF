@@ -12,10 +12,11 @@ namespace Sudoku
             return ArrayToShuffle.OrderBy(x => rnd.Next()).ToArray();
         }
 
-        public static int[,] Create(int fieldsLeft)
+        public static int[][,] Create(int fieldsLeft)
         {
             int zeile, spalte, n, solved, counter, selectedIndependentBlocks;
             int[,] OutputField = new int[9, 9];
+            int[,] SolvedGame = new int[9, 9];
             int[,] tmp = new int[9, 9];
             int[,] independentBlocks = new int[6, 3] { { 0, 30, 60 }, { 0, 33, 57 }, { 3, 27, 60 }, { 3, 33, 54 }, { 6, 30, 54 }, { 6, 27, 57 } };
             int[] ShuffeledArray;
@@ -35,6 +36,7 @@ namespace Sudoku
                     for (int j = 0; j < 3; j++)
                     {
                         OutputField[spalte - (spalte % 3) + i, zeile - (zeile % 3) + j] = ShuffeledArray[n++];
+                        SolvedGame[spalte - (spalte % 3) + i, zeile - (zeile % 3) + j] = OutputField[spalte - (spalte % 3) + i, zeile - (zeile % 3) + j];
                     }
                 }
             }
@@ -64,9 +66,27 @@ namespace Sudoku
                 {
                     Array.Copy(OutputField, tmp, OutputField.Length);
                 }
-            } while (n >= 0);
+            } while (n > 0);
 
-            return OutputField;
+
+            SolvedGame = solution[0];
+            Array.Copy(SolvedGame, tmp, SolvedGame.Length);
+
+            zeile = rnd.Next(9);
+            spalte = rnd.Next(9);
+            solution.Clear();
+            tmp[zeile, spalte] = 0;
+            counter = 0;
+            solved = 0;
+            Sudoku.Solve(0, 0, 0, tmp, ref counter, ref solved, 0);
+
+            Array.Copy(SolvedGame, tmp, SolvedGame.Length);
+
+            int[][,] SendBack = new int[2][,];
+            SendBack[0] = OutputField;
+            SendBack[1] = SolvedGame;
+
+            return SendBack;
         }
     }
 }

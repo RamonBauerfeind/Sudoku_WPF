@@ -71,27 +71,6 @@
             }
             return true;
         }
-
-        //Find mistake here!!!!!
-        public static bool chkResult(int zeile, int spalte, int wert, int[,] arr)
-        {
-            for (int y = 0; y < 9; y++)
-            {
-                for (int x = 0; x < 9; x++)
-                {
-                    if (arr[y, x] == 0)
-                    {
-                        return false;
-                    }
-                    // prüfen ob Zahl an jeweiliger Stelle möglich ist
-                    if (chkMove(zeile, spalte, wert, arr))
-                    {
-                        return true;
-                    }
-                }
-            }
-            return false;
-        }
     }
 }
 
